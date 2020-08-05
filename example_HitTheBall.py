@@ -1,6 +1,5 @@
 # student project, Michal Kovac, Comenius University in Bratislava, 2020
 # course Introduction to Robotics, www.agentspace.org/kv
-import yarp
 import numpy as np
 import cv2
 from pyicubsim import iCubLimb, iCubCamera

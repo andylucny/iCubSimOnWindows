@@ -1,9 +1,5 @@
-import yarp
 from pyicubsim import iCubBall
 import time
-
-yarp.Network.init()
-time.sleep(1)
 
 ball = iCubBall()
 

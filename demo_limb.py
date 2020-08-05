@@ -1,4 +1,3 @@
-import yarp
 from pyicubsim import iCubLimb
 import time
 
