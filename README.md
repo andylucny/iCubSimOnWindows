@@ -10,4 +10,4 @@ and yarp.py in the working directory.
 Start iCubSim\run-iCubSim.bat and wait until it is fully running.
 Confirm each firewall permission.
 
-Run a demo 
+Run a demo based on the pyicubsim library, which simplifies the work with iCubSim a lot.

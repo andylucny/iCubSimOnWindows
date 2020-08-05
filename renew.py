@@ -1,6 +1,5 @@
 import yarp
-from iCubSim import iCubLimb
-yarp.Network.init()
+from pyicubsim import iCubLimb
 
 app = '/renewer'
 
@@ -22,4 +21,4 @@ left_leg.set((0,0,0,0,0,0))
 right_leg = iCubLimb(app,'/icubSim/right_leg')
 right_leg.set((0,0,0,0,0,0))
 
-#right_arm.set(joint1=85,joint3=40,joint2=40)
+

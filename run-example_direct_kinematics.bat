@@ -1,3 +1,3 @@
 @set PATH=.;iCubSim\bin;%PATH%
-python renew.py
+python example_direct_kinematics.py
 pause
