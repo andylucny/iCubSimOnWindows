@@ -3,6 +3,10 @@ import time
 
 emotion = iCubEmotion()
 
+print('neutral')
+emotion.set(emotion.neutral)
+time.sleep(2)
+
 print('happy')
 emotion.set(emotion.happy)
 time.sleep(2)
@@ -31,5 +35,4 @@ print('cunning')
 emotion.set(emotion.cunning)
 time.sleep(2)
 
-print('neutral')
-emotion.set(emotion.neutral)
+emotion.set(emotion.happy)
