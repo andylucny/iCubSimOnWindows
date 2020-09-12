@@ -1,4 +1,11 @@
 # developed by Andrej Lucny from Comenius University in Bratislava, www.agentspace.org/andy
+
+# for Python >= 3.8 which ignores %PATH%
+import sys
+import os
+if sys.version >= '3.8':
+    os.add_dll_directory(os.path.abspath(os.path.curdir)+'/iCubSim/bin') 
+
 import yarp
 import numpy as np
 import cv2
