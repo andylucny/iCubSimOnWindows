@@ -11,3 +11,13 @@ Start iCubSim\run-iCubSim.bat and wait until it is fully running.
 Confirm each firewall permission.
 
 Run a demo based on the pyicubsim library, which simplifies the work with iCubSim a lot.
+
+if yarpserver is not starting, change line
+
+start yarpserver.exe
+
+to
+
+start yarpserver.exe --write
+
+for the next start
