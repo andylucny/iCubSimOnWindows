@@ -1,7 +1,7 @@
 # iCubSimOnWindows
 iCubSim simulator, its Python bindings and demos
 
-Download the simulator from www.robotika.sk/seminar/2020/iCubSim.zip
+Download the simulator from www.agentspace.org/download/iCubSim.zip
 and unpack it into the iCubSimOnWindows directory. 
 
 Run init-bindings.bat or copy bindings manualy to have appropriate _yarp.pyd 
